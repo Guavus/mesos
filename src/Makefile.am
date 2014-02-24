@@ -691,6 +691,7 @@ PROTOBUF_EGG = ../$(PROTOBUF)/python/dist/protobuf-$(PROTOBUF_EGG_SUFFIX)
 $(PROTOBUF_EGG):
 	@echo "Building protobuf Python egg ..."
 	cd ../$(PROTOBUF)/python && \
+	  $(PYTHON) setup.py build && \
 	  PYTHONPATH=$(DISTRIBUTE_EGG) $(PYTHON) setup.py bdist_egg
 
 CLEANFILES += $(PROTOBUF_EGG)
