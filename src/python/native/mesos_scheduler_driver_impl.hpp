@@ -21,6 +21,8 @@
 
 #include <mesos/scheduler.hpp>
 
+ #include <pthread.h>
+
 
 namespace mesos { namespace python {
 

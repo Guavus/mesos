@@ -22,6 +22,8 @@
 #include <string>
 #include <vector>
 
+#include <pthread.h>
+
 #include <mesos/mesos.hpp>
 
 
