@@ -21,6 +21,8 @@
 
 #include <string>
 
+#include <pthread.h>
+
 #include <mesos/mesos.hpp>
 
 /**
@@ -45,7 +47,6 @@
  * THE SAME MODIFICATIONS FOR OTHER LANGUAGE BINDINGS (e.g., Java:
  * src/java/src/org/apache/mesos, Python: src/python/src, etc.).
  */
-
 namespace mesos {
 
 // A few forward declarations.

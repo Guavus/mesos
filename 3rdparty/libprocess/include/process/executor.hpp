@@ -5,6 +5,8 @@
 #include <process/dispatch.hpp>
 #include <process/id.hpp>
 
+#include <pthread.h>
+
 #include <stout/preprocessor.hpp>
 #include <stout/thread.hpp>
 
